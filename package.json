@@ -3,7 +3,6 @@
 	"version": "1.17.02",
 	"description": "Server game By MrT98 (Red T)",
 	"main": "server.js",
-
 	"engines": {
 		"node": "12.14.0"
 	},
