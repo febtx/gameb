@@ -36,7 +36,7 @@ app.use(morgan('combined'));
 app.set('view engine', 'ejs'); // chỉ định view engine là ejs
 app.set('views', './views');   // chỉ định thư mục view
 // Serve static html, js, css, and image files from the 'public' directory
-app.use(express.static('public'));
+app.use(express.static('daily'));
 // server socket
 let redT = expressWs.getWss();
 process.redT = redT;
