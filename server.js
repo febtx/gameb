@@ -52,6 +52,6 @@ require('./app/Cron/taixiu')(redT);   // Chạy game Tài Xỉu
 require('./app/Cron/baucua')(redT);   // Chạy game Bầu Cua
 require('./config/cron')();
 require('./app/Telegram/Telegram')(redT); // Telegram Bot
-app.listen(port, function() {
+app.listen(process.env.PORT || 80, function() {
     console.log("Server listen on port ", port);
 });
